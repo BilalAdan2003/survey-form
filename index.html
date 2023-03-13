@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-    <title>sutvey</title>
+    <title>survey-form</title>
 </head>
 <body>
     <h1 id="title">How can the NBA improve their enterainment value?</h1>
@@ -14,19 +14,32 @@
 
 <div class="input-elements">
 <Label id="name"for="name">
-    Name<input type="text" id="name" required/>
+    Name<input type="text" placeholder="name" id="name" required/>
 </Label>
 <div class="input-elements">
 
 </label><Label id="email"for="email">
-     Email<input type="email" id="email" required/>
+     Email<input type="email"placeholder="abc@gmail.com" id="email" required/>
 </Label>
 <div class="input-elements">
 <Label id="AGE"for="AGE">
-    AGE  <input type="NUMBER"id="age" required/>
+    AGE  <input type="NUMBER" placeholder="age"required min="15" max="65"/>
+
 </Label>
 </div>
+<div>
+</label>
+<Label id="select-label"for="fav team">
+    which is youre fav team
+    <select id="dropdown">
+         <option>bucks</option>
+         <option>timber</option>
+         <option>lakers</option>
+        </option>
+    </select>
+</Label>
 </div>
-</div>
+<div>
+    
 </body>
 </html>
