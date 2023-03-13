@@ -1,1 +1,8 @@
 h1{color:white;}
+body{background-color:lightblue;
+text-align: center ;
+}
+form{max-width: 500px;
+    text-align:left;
+    padding: 20px;
+border:2px solid black  }
