@@ -9,52 +9,60 @@
 </head>
 <body>
     <h1 id="title">How can the NBA improve their enterainment value?</h1>
-<p id="description">Thank you for taking the time to help the NBA improve</p>
-<form id="survey-form"></form>
-
-<div class="input-elements">
-<Label id="name"for="name">
-    Name<input type="text" placeholder="name" id="name" required/>
-</Label>
-<div class="input-elements">
-
-</label><Label id="email"for="email">
-     Email<input type="email"placeholder="abc@gmail.com" id="email" required/>
-</Label>
-<div class="input-elements">
-<Label id="AGE"for="AGE">
-    AGE  <input type="NUMBER" placeholder="age"required min="15" max="65"/>
-</Label>
-</div>
-<div>
-</label>
-<Label id="select-label"for="fav team">
-    which is youre fav team
-    <select id="dropdown">
-         <option>bucks</option>
-         <option>timber</option>
-         <option>lakers</option>
-        </option>
-    </select>
-</Label>
-</div>
-<div>
-    <label>have you watched a game before </label>
-    <div> <label><input type="radio"name="game">yes</div>
-    <label><input type="radio"name="game">no</label>
-</div>
- <label> which suggestion are good ideas for NBA to implement </label>
-    <div> 
-    <label><input type="checkbox"name="game" value="play in game">play in games</div>
-    <label><input type="checkbox"name="game" value="cheaper tickets">cheaper food</div>
-    <label><input type="checkbox"name="game"value="less fouls">less fouls</div>
-    <label><input type="checkbox"name="game"value="rematchs">rematchs</div>
-    <label><input type="checkbox"name="game" value="cheaper tickets">cheaper tickets</div>
-    </div>
-    <div>
-        <label>additional comments</label>
-        <textarea type="text"> </textarea> 
-    </div>
-    <button type="submit">submit</button>
+    <div class="container">
+        <p id="description">Thank you for taking the time to help the NBA improve</p>
+        <form id="survey-form">
+            <div class="input-elements">
+                <Label id="name"for="name">
+                    Name<input type="text" placeholder="name" id="name" required/>
+                </Label>
+            </div>
+                <div class="input-elements"></div>
+                <Label id="email"for="email">
+                    Email<input type="email"placeholder="abc@gmail.com" id="email" required/>
+                </Label>
+                <div class="input-elements"></div>
+            <div>
+                        <Label id="AGE"for="AGE">
+                            AGE  <input type="NUMBER" placeholder="age"required min="15" max="65"/>
+                        </Label>
+            </div>
+            <div>
+                <Label id="select-label"for="fav team">which is youre fav team
+                <select id="dropdown">
+                <option>bucks</option>
+                <option>timber</option>
+                <option>lakers</option>
+                </option>
+                </select>
+                </Label>
+            </div>
+            <div>
+                <label>
+                    Have you  EVER watched a basketball before 
+                </label>
+                <div> 
+                    <label><input type="radio"name="game">yes</label>
+                </div>
+                <div>
+                    <label><input type="radio"name="game">no</label>
+                </div>
+                <div>
+                    <label> which suggestion are good ideas for NBA to implement </label>
+                </div>
+                <div> 
+                    <label><input type="checkbox"name="game" value="play in game">play in games</label>
+                    <label><input type="checkbox"name="game" value="cheaper tickets">cheaper food</label>
+                    <label><input type="checkbox"name="game"value="less fouls">less fouls</label>
+                    <label><input type="checkbox"name="game"value="rematchs">rematchs</label>
+                </div>
+                <div>
+                <label>additional comments</label><br>
+                <textarea type="text" required> </textarea> 
+                </div>
+                <button type="submit">submit</button>
+            </div>
+        </form>
+    </div> 
 </body>
 </html>
