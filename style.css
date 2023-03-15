@@ -1,15 +1,30 @@
 
 body{background-color:lightblue;
-text-align: center ;
+  text-align: center;
+  background-image:image();
 }
 .container{
   border: 3px solid black; 
   padding: auto;
   margin: auto;
-  background-image: url(https://i.pinimg.com/originals/95/3f/61/953f61b7d07a33b3de7e219dbe679610.jpg);
   background-size: 700px;
+  
   width: 450px;
   }
 .checkbox{display:flex;
 flex-direction: row;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
